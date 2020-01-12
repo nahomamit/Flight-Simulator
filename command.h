@@ -384,7 +384,6 @@ class ifCommand : public command{
     lexer.pop_front();
     float l = expressionChecker(leftVal);
     float r= expressionChecker(rightVal);
-    //std::map<std::string, variable*>::iterator iter = varDefinitionMap.find(leftVal);
     int trueI = -2;
     int falseI = -3;
     if(operat == "<="){
